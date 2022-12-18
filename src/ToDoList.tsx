@@ -8,6 +8,7 @@ function ToDoList() {
   const { register, handleSubmit, setValue } = useForm<IForm>();
   const handleValid = (data: IForm) => {
     console.log("add to do ", data.toDo);
+
     setValue("toDo", "");
   };
   return (
