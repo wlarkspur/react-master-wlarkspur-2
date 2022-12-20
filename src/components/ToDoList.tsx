@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useRecoilState, useRecoilValue } from "recoil";
-import { categoryState, toDoSelector, toDoState } from "./atoms";
+import { categoryState, toDoSelector } from "./atoms";
 import CreateToDo from "./CreateToDo";
 import ToDo from "./ToDo";
 
