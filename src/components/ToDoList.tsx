@@ -34,7 +34,7 @@ function ToDoList() {
       </select>
       <form onSubmit={handleSubmit(onValid)}>
         <input {...register("data")} placeholder="Custom Todo List" />
-        <button>Add</button>
+        <button>Add.</button>
       </form>
 
       <CreateToDo />
